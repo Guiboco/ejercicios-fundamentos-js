@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+for (var persona of gente) {
+    if(persona.nombre.charAt(0)=== "J"){
+        console.log(persona.nombre);
+    }
+    
+    }
