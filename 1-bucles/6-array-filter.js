@@ -32,4 +32,8 @@ let gente = [{
         edad: 10
     },
 ]
-
+var personas = gente.filter(function(persona) {
+    if( persona.nombre.length < 5 ) console.log(persona.nombre);
+})
+       
+    
