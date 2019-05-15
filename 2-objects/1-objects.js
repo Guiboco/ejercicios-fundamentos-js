@@ -5,7 +5,15 @@
 
 
 // Aquí tu código
-
+var ordenador = {
+    marca : "La pava",
+    tipo : "portátil",
+    perifericos : [ "uno", "touchPad"],
+    almacenamiento : {
+        discos : [ "SSD", "HDD"],
+        maestro : 0,
+    }
+};
 
 
 // Hasta aquí
