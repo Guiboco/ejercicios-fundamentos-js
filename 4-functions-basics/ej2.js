@@ -8,9 +8,15 @@
 let convierteString = (numero) => {
     // Aquí tu código.  Desde aquí:
 
-    
-    // Hasta aquí.
+    if(typeof numero !== "number"){
+        return 'Debo ser ejecutada con un numero';
 }
+else {
+    return numero.toString();}
+
+}
+console.log(convierteString("hola"));
+    // Hasta aquí
 
 
 let test = require('../test.js');
