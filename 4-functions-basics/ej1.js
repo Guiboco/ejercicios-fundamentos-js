@@ -8,11 +8,17 @@
 
 let duplicaNumero = (numero) => {
     // Aquí tu código.  Desde aquí:
-   
-
-
-    // Hasta aquí.
+    //poner en el if la condición de que no se cumpla algo.
+  
+    if(typeof numero !== "number"){
+        return 'Debo ser ejecutada con un numero';
 }
+else {
+    return  numero * 2;}
+
+}
+console.log(duplicaNumero(5));
+
 
 let test = require('../test.js');
 
