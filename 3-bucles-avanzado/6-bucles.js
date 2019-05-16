@@ -14,13 +14,14 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
     arr[i] = giveMeIntegerRandom(4)
 }
 console.log('El array original es:  arr =', arr);
-// Aquí tu código
+// Aquí tu código 
 
 let dobleArr =[];
-for (item of arr) {
-    dobleArr.push(item * 2) ;
+for (numero of arr) {
+    dobleArr.push(numero * 2) ;
 }
-
+//MAP
+// let dobleArr=arr.map(numero=>numero*2)
 
 // Hasta aquí
 console.log('El array nuevo es:  doubleArr =', dobleArr);
