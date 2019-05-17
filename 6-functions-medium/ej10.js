@@ -13,7 +13,10 @@
 // Ha de pasar los test adjuntados.
 
 // Aquí tu código.  Desde aquí:
-const conCuantosParametrosMeHanEjecutado;
+const conCuantosParametrosMeHanEjecutado = (...Arg) => {
+return Arg.length;
+}
+
 // Hasta aquí.
 
 
